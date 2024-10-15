@@ -29,7 +29,7 @@ qscatter <- function(data, x, y) {
                 formula = y~x,
                 se = FALSE,
                 linetype = "dashed",
-                color = "gray") +
+                color = "cornflowerblue") +
     theme_minimal() +
     labs(title = gtitle,
          subtitle = gtitle2 )
